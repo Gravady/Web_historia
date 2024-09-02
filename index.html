@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <style>
+        html {
+            background-color: grey;
+        }
+        * {
+            border-radius: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        div {
+           border: 2px solid black;
+           margin: 40px; 
+           padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="background-color: pink;">
+        <h2>Unix och opensource</h2>
+        <p>
+            Unix lade grunden till skapandet av moderna operativsystem och revolutionerade hur vi såg på gratis mjukvara och använder datorer. 
+            Operativsystemet skapades 1983 av Dennis Ritchie och Ken Thompsons som hade som mål att skapa ett simpelt och portabelt operativsystem. 
+            Unix har idag inspererat flera olika operativsystem som tex Apples MacOs och Linux samt Windows även om Bill Gates inte vill erkänna det. 
+            UNIX har ändrat eftersom att GNU/Linux som många säger är en predacessor till UNIX är så kallade open source som då också vissa(fast inte alla) UNIX distrubitioner var. Open source betyder helt enkelt att koden för programmvaran är grattis och kan ses av alla och ändras av folk hur som helt. 
+            Att folk kan se kodbaser utan att behöva betala någonting har ledigt till att flera av de största tekniska kontributionerna i världen har gjorts 
+            från oberoende invidivider och organisationer som har förbättrat de. 
+            <cite><a
+                href="https://en.wikipedia.org/wiki/Unix"> UNIX Wikipedia
+            </a></cite>
+        </p>
+    </div>
+
+    <div style="background-color: lightskyblue;">
+        <h2>TCP/IP</h2>
+        <p>
+            TCP som står för transmission control protocol som är en protocol/sätt att regler för hur data ska skickas genom internet genom bland annat 
+            port 443/80(http/https) och 23(telnet). Grundläggande principerna av protokollet är att en viss ström av data kommunicerar mellan två datorer 
+            och fungerar så länge båda datorerna är uppkopplade till internet. Om dock kommunikationen skulle brytas mellan dessa två datorerna förstörs datan 
+            som egentligen skulle skickas, då kan bland annat noderna begära att data skickas igen. Innan tcp/ip hade man inget sätt att återhämta förlorad data 
+            som gjorde så att tex text och information kunde saknas. Detta sättet att kommunicera har både nackdelar och fördelar, en fördel är bland annat att de 
+            är mycket säkrare och kan skydda mot dåligt MITM-attacker men TCP är också förbindelseorienterat som använder sig av trestegs handskakning som leder 
+            till en säkrare och mer stabil kommunikation. En nackdel är dock att eftersom att den har saker för mer säker kommuikation så andvänds också mer breddband
+            som oftast ledder till ett långsammare internet. 
+            <cite>
+                <a href="https://www.techtarget.com/searchnetworking/definition/TCP-IP"> TechTarget</a>
+                <a href="https://internetkunskap.se/artiklar/ordlista/tcp/"> InternetKunskap</a>
+            </cite>
+        </p>
+    </div>
+
+    <div style="background-color: lightcoral;">
+        <h2>BITCOIN/Cryptovaluta</h2>
+        <p>
+            Principen av en valuta kontrollerad och decentraliserad på internet har varit en princip sedan länge(40+ år tillbaka) men har bara varit i värket och funnits i 15 år(skrivs 2024). 
+            Bitcoin som var den första riktiga kryptovalutan som sägs alltså ha skapats 2009 av Satoshi Nakamoto och ska enligt många från början ha varit ett sätt att handla utan en mellanhand som oftast är din bank. 
+            Man vet egentligen inte så mycket mer en de om varför bitcoin egentligen skapades och många menar att Satoshi Nakamoto egentligen aldrig har funnits och mer var en alias för 
+            den grupp av personer som tillsammans skapade bitcoin. Även om detta är sant är det ändå intressant att veta att Satoshi Nakamoto idag om han finns och lever skulle vara världens 
+            rikaste man. Bitcoin gav folk chansen att handla anonymt(eller relativt anonymt) och aspektet av en decentraliserad handel som alltså betyder att ingen äger eller styr handeln 
+            lockade många bra och dåliga till att handla med cryptovaluta. Även om cryptovaluta har sina positiva aspekter som att folk från censurerade länder kan handla med vem de vill, 
+            men de har också lett till att cryptovaluta pågrund av dens anonymitet har blivit älskad och väldigt använd av kriminella individer/organisationer.
+            <cite><a href="https://www.forbes.com/sites/bernardmarr/2017/12/06/a-short-history-of-bitcoin-and-crypto-currency-everyone-should-read/"> Forbes </a></cite>
+            <cite><a href="https://en.wikipedia.org/wiki/Bitcoin"> Wikipedia </a></cite>
+        </p>
+    </div>
+
+    <div style="background-color: green;">
+        <h2>OpenSSL</h2>
+        <p>
+            OpenSSL är ett av de första och ett grattis cryptografirenings bibliotek lanserad 1998 som ger programmerare och nätverksadministratörer möjligheten att kryptera data som bland annat skickas 
+            genom internet så att ingen som lyssnar in och försöker spionera på dig kan läsa eller få in information i en HRF(Human-readable form) som senare kan användas för bland 
+            annat bedrägeri. Openssl var en av de första bibloteken för att kryptera data och revolutionerad tech som gjorde det möljigt att surfa på internet genom https utan att bli avlyssnad.
+            Openssl fungerar genom att båda datorerna tvingas ha en ssl certification som kollas av webbservern för att kunna kommunicera. Detta betyder 
+            att en person som inte har de hashade certifikatet på sin dator inte kan låsa upp(eftersom man också kallar certifikat för en nyckel) informationen. Openssl används idag 
+            av de flesta webbservrar och säkra kommunikationssätt som använder internet för att kommunicera. Eftersom ssl var open source gav det också chansen till att mer och mer människor
+            kunde få chansen att utifrån openssl skapa olika krypteringslagorithmer som byger på ssl och gjorde kryptografi i sin helhet mer populär för den normalla individen. 
+            Även om openssl har varit bra har också openssl haft extremt många sårbarheter i sitt program som enklare har hittats pågrund av alla kan se koden. Eftersom att openssl är så viktigt för
+            vår privatliv på internet har många varit skeptiska till om det verkligen ska gå och lita på openssl/ssl kryptering i framtiden.
+                <cite><a
+                    href="https://www.ssldragon.com/blog/what-is-openssl/"> SSLDragon
+                </a></cite>
+        </p>
+    </div>
+
+    <div style="background-color: lightpink;">
+        <h2>Kvantum Datorer</h2>
+        <p>
+            Kvantdatorer är datorer som med hjälp av hur partiklar agerar och rör sig inom kvantfysik(simpelt förklarat) kan på ett snabbare sätt kan komputera intensiva matematiska 
+            ekvationer som tex krypteringsalgoritmer och stora serverar. Kvantdatorer använder istället för bits alltså 1or och 0or istället 
+            qubits som kan till skillnad från bits kan hålla både en nolla och detta samtidigt eftersom kvantfysiken till skillnad från elektronen 
+            inte kan byta från på till av lika snabbt. Kvantdatorer är enligt hur vi i framtiden kommer använda datorer eftersom att de enligt fysiker och matematiker har mycket större 
+            potential än vad elektronen kan. Även om snabba datorer är bra för att till exempel hosta stora servrar och andra extremt intensiva/krävande processer som sparar oss tid så kan 
+            det också leda till att vår rätt till privatliv hotas. Kvantdatorer kan på grund av hur snabba de är knäcka krypteringens för många moderna kryptografiska algoritmer som tex 
+            Openssl mycket snabbare som förstör hela principen av kryptering som i princip är att alla krypteringar är möjliga att knäcka men att ingen skulle göra det på grund av det skulle 
+            ta extremt lång tid och då extremt mycket resurser(oftast över 100+ år med en normal data). Även om kvantdatorer idag bara används av universitet och andra högt sophisticerade 
+            kunskapsfaciliteter så kan det i framtiden bland annat användas av kriminella eller dåliga organisationer/individer för att då extrahera information från vanliga individer som 
+            annars skulle vara oläsbar. Om modern kryptering på detta sätt blir obsolete så kommer antagligen extremt mycket information stjälas som kan leda till en världs stor panik runt 
+            omkring hela världen. På grund av detta har flera forskare varnat utvecklare av kvantdatorer att inte gå för snabbt utan att mer växa tillsammans med resten av tekniken då nya mer 
+            sophisticerade tex krypteringsalgoritmer kommer byggas som inte kommer göra tidigare nämnda problem till en lika stor sak.
+            <cite><a href="https://www.ibm.com/topics/quantum-computing"> IBM</a></cite>
+            <cite><a href="https://quantumai.google/quantumcomputer"> Quantum AI</a></cite>
+        </p>
+    </div>
+
+    <div style="background-color: peachpuff;">
+        <h2>World Wide Web</h2>
+        <p>
+            WWW eller World Wide Web som de står har varit en av världens mest revoulationarande uppfinningar inom de senaste hundra åren och kanske till och med någonsin. Webben är idag 
+            den mest använda och smidiga sättet att uppleva det moderna internet och används bland annat för att dela information och kommunicera med människor runt omkring hela världen. 
+            De uppfanns av Tim Berners-Lee 1989 medans han jobbade på CERN som ett gemensamt sätt för alla forskare på CERN att dela information emellan sig. Det var dock inte förrän 1991 
+            som de öppnades upp för den vanliga konsumenten och när webben kom tog det snabbt fart på grund av att bland annat fler och fler började få PCs(personliga datorer) samt att 
+            det var grattis att använda webben. För att kunna gå in på webben behöver man en så kallad web läsare som då användes för att komma in på webben. Tim Berners-lee uppfann också 
+            med webben markeringsspråket HTML som en används idag för att bland annat skriva text, lägga in bilder och videos osv på en hemsida/web plats. En av de viktigaste rollen som 
+            webben än idag spelar är att webben är hur oreglerad och ocensurerat den är. Detta ledder till att folk som tidigare inte kunde kommunicera sina meddelande eller yttra 
+            sig fritt ny fick en plats att göra detta på. Folk fick alltså mycket mer gämstäldig makt i ett samhälle och i världen då inte bara de med makt lika enkelt nu kunde bestämma vad 
+            som sägs. Även om Webben har varit en mestadels bra uttveckling har det också uppstakommit stora problem och svårigheter med tiden. En av de största problemen om webben som 
+            egentligen inte stämmer är att de förde mestadels inte gör dig annonym. När du idag använder en webbläsare som text Google identifierar Google dig och dinna sökningar och sparar
+            tex vad du söker på, vad du kollar på och var du konsumenerar för att senare kunna sälja vidare det till företag och spara information and juridiska skäl. Oftast så kan också din
+            ISP(Internet service provider) som bland annat kan läsa dina DNS(Domain system name) alltså var hemsidan som du går in på heter och då se ungefärligt vad du gör och söker på inom 
+            hemsidan samt kan de lyssna och se packet för att indentifiera dig alltså deanonymysera dig. 
+                <cite><a
+                    href="https://www.home.cern/science/computing/birth-web/"> CERN Officiella hemsida
+                </a></cite>
+        </p>
+    </div>
+</body>
+</html>
